@@ -7,3 +7,10 @@
 # 1 2 3 4 5
 # 3
 # -> 1
+
+
+    
+from random import randint
+A = [randint(1, 9) for i in range(int(input('Введите количество элементов массива:  ')))]
+print(A)
+print('->', A.count(int(input('Введите искомое число: '))))
